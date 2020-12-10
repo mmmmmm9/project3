@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project3 by Annie Sun</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="project3.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+		    <li class="nav-item">
+			   <a class="nav-link" href="#">Home</a>
+		    </li>
+		    <li class="nav-item">
+			   <a class="nav-link" href="#About">About</a>
+		    </li>
+		    <li class="nav-item">
+			   <a class="nav-link" href="#Project">Project</a>
+		    </li>
+		    <li class="nav-item">
+			   <a class="nav-link" href="#Activity">Activity</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#Gallery">Gallery</a>
+			 </li>
+	    </ul>
+	</div>
+</div>
+</nav>
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/background1.jpg">
+			<div class="carousel-caption">
+				<h1 class="display-2">Annie Sun</h1>
+				<h3>Personal portfolio</h3>
+				<a class="btn btn-primary btn-lg" href="#About">Get Started</a> 
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="img/background2.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="img/background3.jpg">
+		</div>
+	</div>
+</div>
+
+<!--emoji-->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click For Fun
+</button>
+<div id="emoji" class="collapse">
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/panda.gif">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/unicorn.gif">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/chicken.gif">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/poo.gif">
+	</div>
+</div>
+</div>
+</div>
+
+<!--About me -->
+<div calss="container-fluid padding" id="About">
+	<div class="row welcome text-center">
+		<div class="col-12 bg-info text-white">
+			<h1 class="display-4">About Me</h1>
+		</div>
+	</div>	
+	</div>
+
+	<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6 px-5 py-5">
+			<h3>Welcome to my profolio:</h2>
+				<br>
+			<h5>Hello, my name is Annie Sun.This website is a web-project 
+			and also my personal portfolio.</h5>
+			<h5>I am a student currently study in QCC,Newyork. My major is 
+			Digital Art and Design.</h5>
+			<h5>My recent goal is to transfer to a  four-year art
+			university and continue studing in Graphic design.</h5>
+			<h5>This website is a HTML/CSS/BOOTSTRAP based webproject include personal gallery.</h5>
+			
+			 <br>
+			 <a href="#Gallery" class="btn btn-primary">More Art Work</a>
+		</div>
+		<div class="col-lg-6 px-5 py-5">
+			<h5 class="text-primary">CODEING</h5>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+			  <br>
+			  <h5 class="text-success">PHOTOSHOP</h5>
+			  <div class="progress">
+				<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+			  <br>
+			  <h5 class="text-info">AFTER EFFECT</h5>
+			  <div class="progress">
+				<div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+			  <br>
+			  <h5 class="text-warining">ILLUSTRATION</h5>
+			  <div class="progress">
+				<div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+			  <br>
+			  <h5 class="text-danger">CREATIVITY</h5>
+			  <div class="progress">
+				<div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+			  </div>
+		</div>
+	</div>
+	</div>
+
+<!--- title web -->
+<div calss="container-fluid padding" id="Project">
+	<div class="row welcome text-center">
+		<div class="col-12 bg-info text-white">
+			<h1 class="display-4">Web Technology Projects</h1>
+		</div>
+	</div>	
+	</div>
+
+<!--PROJECT-->
+	<div class="container" id="portfolio">	
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 my-3">
+				<div class="portfolio-item ">
+					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+						</div>
+						<img class="img-fluid" src="img/iceland.png" alt="" />
+					</a>
+					<div class="portfolio-caption">
+						<div class="portfolio-caption-heading "><h3 class="text-dark"><b>HTML PROJECT DREAMING PLACE</b></h3></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-sm-6 my-3">
+				<div class="portfolio-item">
+					<a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+						<div class="portfolio-hover">
+							<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+						</div>
+						<img class="img-fluid" src="img/shop.png" alt="" />
+					</a>
+					<div class="portfolio-caption">
+						<div class="portfolio-caption-heading"><h3 class="text-dark"><b>HTML AND CSS PROJECT:SALES WEBSITE</b></h3></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!--modalwindow ice-->
+		<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal1" tabindex="-1" role="dialog"aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header py-1 d-flex flex-row-reverse">
+					<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+						<i class="fas fa-times" aria-hidden="true"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="container">
+							<div class="row justify-content-center bg-white">
+								<h4 class="text-uppercase text-info text-center mt-3"><b>HTML Project:Dreaming Places</b></h4>
+							    <div class="col-lg-12">
+									<img src="img/iceland.png" class="img-fluid shadow rounded border border-info" alt="full modal image">
+								</div>
+							</div>
+						<div class="modal-body">
+							<p>Project 1 consists in creating an informative website. The information of the website is about a place.
+							(city,country, or state)where you want to inform people about that place.
+							<br><br>
+							 I create a webiste about <b><i>Iceland</i></b>. I chose Iceland beacasue it is a different place to USA especially
+							for the bolial lights. As a student of art,I love the beauty of colors and nature, therefore I believe that it is the
+							 miracle of the earth  and the beauty of nature that we should appreciate throuhg lihgts. One of my future visits will 
+							 be to see this wonderful nature light with my own eyes.</p>
+							 <a href="shop/Index.html">Visit My <b>Iceland </b> Project</a>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+<!--modalwindow shop-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header py-1 d-flex flex-row-reverse">
+			<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+				<i class="fas fa-times" aria-hidden="true"></i>
+			</button>
+		</div>
+		<div class="modal-body py-0">
+			<div class="container">
+				<div class="container">
+					<div class="row justify-content-center bg-white">
+						<h4 class="text-uppercase text-info text-center mt-3"><b>HTML AND CSS PROJECT:SALES WEBSITE</b></h4>
+						<div class="col-lg-12">
+							<img src="img/shop.png" class="img-fluid shadow rounded border border-info" alt="full modal image">
+						</div>
+					</div>
+				<div class="modal-body">
+					<p>Project 2 consists in creating a sales webpage. The purpose of project 2 is to apply the knowledge of colors,
+						image manipulation, animation, slideshow, and modal window using CSS to create a simple sales page.
+					<br><br>
+					 I create a webiste about <b><i>Josefina Body Care Collection</i></b>. On this page i presented my favorite body care 
+					 products. In the introduction, I created a slidshow to advertise the products. In the product list, I presented three 
+					 lotions and three sets of my favorite body care. I also designed a modal window to present each product.</p>
+					 <a href="iceland/PROJECT2.html">Visit My <b>Josefina Body Care Collection</b> Project</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>	
+
+<!--- class title-->
+<div calss="container-fluid padding" id="Activity">
+	<div class="row welcome text-center">
+		<div class="col-12 bg-info text-white">
+			<h1 class="display-4">Class Activities</h1>
+		</div>
+	</div>	
+	</div>
+
+<!--class activity-->
+<div class="container-fluid padding">
+	<div class="row padding px-5 pt-3 pb-5">
+		<div class="col-md-4">
+			<div class="card" >
+				<img class="card-img-top" src="img/html.jpg">
+				<div class="card-body">
+					<h3 class="card-title">HTML</h3>
+					<h5>Class Activities</h5>
+					<p class="card-text">At the beginning of the 
+					course I learned to create structures using only HTML.</p>
+				</div>
+	            <ul class="list-group list-group-flush">
+	            <li class="list-group-item"><a href="table/Assignment 2.html" class="card-link">HTML Activity 1: Table</a></li>
+	            </ul>
+	        </div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card" >
+				<img class="card-img-top" src="img/css.jpg">
+				<div class="card-body">
+					<h3 class="card-title">CSS</h3>
+					<h5>Class Activities</h5>
+					<p class="card-text">After we learned how to build a HTML sturcture,
+					we were later introduced to CSS and how to do style elements.</p>
+				</div>
+	            <ul class="list-group list-group-flush">
+	            <li class="list-group-item"> <a href="basic css/index.html" class="card-link">CSS Activity 1: Basic CSS Attributes</a></li>
+	            <li class="list-group-item"> <a href="animation/Assignment 6.html" class="card-link">CSS Activity 2: Animation</a></li>
+				<li class="list-group-item"> <a href="images manipulation/Assignment4.html" class="card-link">CSS Activity 3: Images Manipulation</a></li>
+				<li class="list-group-item"> <a href="modal window/Modal.html" class="card-link">CSS Activity 4: Modal Window</a></li>
+	            </ul>
+	        </div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card" >
+				<img class="card-img-top" src="img/bootstrap.jpg">
+				<div class="card-body">
+					<h3 class="card-title">Bootstrap 4</h3>
+					<h5>Class Activities</h5>
+					<p class="card-text">After we understood and know how to work with HTML and CSS,
+					 we started to learn how to use classes in Bootstrap 4.Bootstrap is the most popular
+					 HTML,CSS,and JavaScript framework fro developing responsive,monbile-first-websites.</p>
+				</div>
+	           <ul class="list-group list-group-flush">
+	           <li class="list-group-item"> <a href="bootstrap1/assignment8.html" class="card-link">Bootstrap Activity 1:Layout and Cards</a></li>
+	           <li class="list-group-item"> <a href="bootstrap2/project9.html" class="card-link">Bootstrap Activity 2:Navigation Bars and information Window</a></li>
+	           <li class="list-group-item"> <a href="#" class="card-link">Bootstrap Activity 3:Collapsible and Carousel</a></li>
+	           </ul>
+	        </div>
+		</div>
+		
+	</div>
+  </div>
+
+
+
+<!--Gallery title-->
+<div calss="container-fluid padding" id="Gallery">
+	<div class="row welcome text-center">
+		<div class="col-12 bg-info text-white">
+			<h1 class="display-4">Art Gallery</h1>
+		</div>
+	</div>	
+	</div>
+
+<!--gallery>-->
+<div class="container" id="portfolio">	
+	<div class="row">
+   <!--AI portrait-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item ">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/self.jpg" alt="portrait" width:100px;/>
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading "><h3 class="text-dark"><b>AI PORTRAIT</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--cartoon portrait-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/cartoon.jpg" alt="cartoon" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>CARTOON PORTRAIT</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--hp-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/hp.jpg" alt="" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>INSPIRE DESIGN</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--wayfinder-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/wayfinder.jpg" alt="" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>LOGO DESIGN</b></h3></div>
+				</div>
+			</div>
+		</div>
+    <!--dog-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/logo.jpg" alt="" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>LOGO DESIGN</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--packege-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/package.jpg" alt="" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>PACKEGE DESIGN</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--hand-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/hand.jpg" alt="" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>SKETCH</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--sketch-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/sketch.JPG" alt="" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>SKETCH</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--night-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/night.JPG" alt="" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>PHOTO</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--window-->
+		<div class="col-lg-4 col-sm-6 my-3">
+			<div class="portfolio-item">
+				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
+					<div class="portfolio-hover">
+						<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+					</div>
+					<img class="img-fluid" src="gallery/window.jpg" alt="" />
+				</a>
+				<div class="portfolio-caption">
+					<div class="portfolio-caption-heading"><h3 class="text-dark"><b>PHOTO</b></h3></div>
+				</div>
+			</div>
+		</div>
+	<!--TITLE SEQUENCE-->
+	    <div class="col-lg-4 col-sm-6 my-3">
+		    <div class="portfolio-item">
+			    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal13">
+				    <div class="portfolio-hover">
+					   <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+				    </div>
+				    <img class="img-fluid" src="gallery/HP TITLE-01.jpg" alt="" />
+			    </a>
+			    <div class="portfolio-caption">
+				    <div class="portfolio-caption-heading"><h3 class="text-dark"><b>TITLE SEQUENCE</b></h3></div>
+			   </div>
+		    </div>
+		</div>
+	<!--poster-->
+	    <div class="col-lg-4 col-sm-6 my-3">
+		    <div class="portfolio-item">
+			    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal14">
+				    <div class="portfolio-hover">
+					   <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+				    </div>
+				    <img class="img-fluid" src="gallery/bp.jpg" alt="" />
+			    </a>
+			    <div class="portfolio-caption">
+				    <div class="portfolio-caption-heading"><h3 class="text-dark"><b>TYPOGRAPHY</b></h3></div>
+			   </div>
+		    </div>
+		</div>
+	</div>
+</div>
+
+<!--AI MODAL-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal3" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>ILLUSTATION PORTRAIT</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/self.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a portrait that I made using Adobe Illustrator.The use of flowers in the backgorund and colors represented my personal taste as an artist.</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--CARTONN MODAL-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal4" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>Cartoon PORTRAIT</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/cartoon.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a portrait that I made using Procreat.The style of drawing represented my personal taste as an artist.</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--HP modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal5" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>INSPIRATION DESIGN</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/hp.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is illustration design that I made inspired by THE HOUSE OF SLYTHERIN of Harry potter using Adobe Illustrator.I am a huge Harry Potter fan and also a also a slythrin myself, so I created this piece inspired by:Professor Snape,Magic posion class, the Basilisk and colors that represent the house .</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		
+<!--wayfinder modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal6" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>LOGO DESIGN</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/wayfinder logo.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+								<img src="gallery/wayfinder map.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a logo design that I created using Adobe Illustrator,using brightful colors.The wayfinder logo sign is created for amusement parks, that is good for maps and direction.</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--dog modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal7" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>LOGO DESIGN</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/dog modal.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a logo design that I created using Adobe Illustrator,using warmful colors.The logo is created for pet shops and dog supplies, the title is "INU HOUSE" which means doggy in japanes.The Shiba Inu dog is also a cute doggy that is popular from Japan.</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--package modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal8" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>PACKEGE DESIGN</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/package.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+								<img src="gallery/packege modal1.jpeg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+								<img src="gallery/packege modal.jpeg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+								<img src="gallery/packege modal3.jpeg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+							</div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a logo & package design that I created using Adobe Illustrator,using juicy colors.The logo is for friut juice bottles,represnted with different types of fruit with the company name"FULUTO".Mockups are created for reference. </p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--hand modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal9" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>SKETCH DRAW</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/hand modal.JPG" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a sketch that I drawn. As a part of my final profolio for transfer.</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!--sketch modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal10" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>SKETCH DRAW</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/sketch modal.JPG" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a sketch that I drawn. As a part of my final profolio for transfer.</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!--night modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal11" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>PHOTOGRAPHY</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/night.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a photograph took by me myslef at the night of Mid autumn festival of Chinese traditional holiday.</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!--window modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal12" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>PHOTOGRAPHY</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/window.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a photograph took by me myslef when I took a trip.I just realy love the lighening, the form of ligths and the blue lake outside.</p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!--TITLE SEQUENCE MODAL-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal13" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>TITLE SEQUENCE</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/title modal.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a Animation project that uses After Effect and Photoshop.The goal is to re-create a title seqence,I choose my favourite Movie and book series Harry Potter as topic.
+							Mostly I am more familier with illustration but this is a project that I really concentrated with my after effect skills and some photoshop.
+							<br><br>
+							<a href="https://youtu.be/Cu8OUWPd-EY"><b>Click here to watch my animated video.</b></a></p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--title modal-->
+<div class="portfolio-modal py-2 mb-4 modal fade" id="portfolioModal14" tabindex="-1" role="dialog"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header py-1 d-flex flex-row-reverse">
+				<button type="button" class="close-modal btn btn-outline-info" data-dismiss="modal" aria-label="Close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="container">
+					<div class="container">
+					<div class="row justify-content-center bg-white">
+					   <h4 class="text-uppercase text-info text-center mt-3"><b>TYPOGRAPHY</b></h4>
+						<div class="col-lg-12">
+								<img src="gallery/bp.jpg" class="img-fluid shadow rounded border border-info" alt="full modal image">
+					    </div>
+					</div>
+					    <div class="modal-body">
+						     <p>This is a Animation & Typhgraphy project that uses After Effect.The goal is to create a poster for any event.
+								I chooses my favouirte Kpop girl group BlackPink's new album- "Lovesick Girls" release as inspiration.I uses the iconic colors of the group and effect that concentrate attention to the slogan "Blackpink in your area".
+							<br><br>
+							<a href="https://youtu.be/QK6uWn7bGGQ"><b>Click here to watch my animated video.</b></a></p>
+					        <div class="modal-footer">
+						       <button type="button" class="btn btn-secondary btn-info" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--- Connect -->
+<div id="footer" class="offset">
+	<footer>
+	<div class="row justify-content-center">
+		<div class="col-md-5 text-center">
+			<img src="img/logo.png">
+			<p>This personal website is created by Annie Sun.<br>
+			For work or personal purpose, contact through the link below.</p>
+			<strong>Contact Info</strong>
+			<p>(929)391-2534<br>anniesun327@gmail.com</p>
+			<a href="https://www.instagram.com/annnnnnie.gallery/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/channel/UCPsW6YFB35JHubu3Vmn2bYw?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
+			<a href="https://www.facebook.com/annie.sun.50999" target="_blank"><i class="fab fa-facebook-square"></i></a>
+		</div>
+		<hr class="socket">
+		&copy;Annie Sun.
+	</div>
+	</footer>
+</div>
+
+<!--- Footer -->
+
+
+
+
+</body>
+</html>
+
+
+
